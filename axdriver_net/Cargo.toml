@@ -19,4 +19,4 @@ ixgbe = ["dep:ixgbe-driver"]
 spin = "0.9"
 log = "0.4"
 axdriver_base = { workspace = true }
-ixgbe-driver = { git = "https://github.com/ghostdragonzero/ixgbe_driver.git", rev = "719886b", optional = true}
+ixgbe-driver = { git = "https://github.com/ghostdragonzero/ixgbe_driver.git", optional = true}
